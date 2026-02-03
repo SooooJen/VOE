@@ -1,50 +1,48 @@
 {
-"settings":
+  "settings": {
+    "openbutton": 1,
+    "hideicon": true,
+    "hideiconafter": 15,
+    "iconurl": "https://i.imgur.com/OZ6xOjY.png",
+    "disableicontext": false,
+    "iconposition": 3,
+    "icontextcolor": 8,
+    "openonstart": true,
+    "openonstartonlynewplayers": true,
+    "updateinterval": 12
+  },
+  "tabs": [
+    {
+      "layout": 1,
+      "buttontext": "1 Box Layout",
+      "imageurl": "https://i.imgur.com/mGt3cAF.png",
+      "content": [
         {
-            "openbutton": 1,
-            "hideicon": true,
-            "hideiconafter": 15,
-            "iconurl": "https://i.imgur.com/OZ6xOjY.png",
-            "disableicontext": false,
-            "iconposition": 3,
-            "icontextcolor": 8,
-            "openonstart": true,
-            "openonstartonlynewplayers": true,
-            "updateinterval": 12
-        },
-
- "tabs": [
-            {
-                "layout": 1,
-                "buttontext": "1 Box Layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "title",
-                        "text": "This text goes into the box"
-                    }
-                ]
-            },
-            {
-                "layout": 1,
-                "buttontext": "1 Box Layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "title",
-                        "text": "This text goes into the box"
-                    }
-                ]
-            }
-        ],
- "links": [
-            {
-                "text": "Link to Wiki",
-                "url": ""
-            },
-            {
-                "text": "Link to discord",
-                "url": ""
-            }
-        ],
+          "title": "title",
+          "text": "This text goes into the box"
+        }
+      ]
+    },
+    {
+      "layout": 1,
+      "buttontext": "1 Box Layout",
+      "imageurl": "https://i.imgur.com/mGt3cAF.png",
+      "content": [
+        {
+          "title": "title",
+          "text": "This text goes into the box"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "text": "Link to Wiki",
+      "url": ""
+    },
+    {
+      "text": "Link to discord",
+      "url": ""
+    }
+  ]
 }
